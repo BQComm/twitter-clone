@@ -21,7 +21,7 @@ export default function RightSidebar() {
     </div>
     <div className="flex">
     <div className="flex flex-col bg-gray/20 rounded-xl p-4 my-4">
-    <h3 className='font-bold text-2xl my-4'>What is happening?</h3>
+    <h3 className='font-bold text-2xl my-4'>What's happening?</h3>
         <div className="">
         {Array.from({ length: 5 }).map((_, i) => (
             <div className="hover:bg-white/10 p-2 rounded-md cursor-pointer mt-1 transition duration-200" key={i}>
@@ -35,7 +35,6 @@ export default function RightSidebar() {
     <div className="flex">
     <div className="flex flex-col bg-gray/20 rounded-xl p-4 my-4">
     <h3 className='font-bold text-2xl my-4'>Who to folllow? 🤩</h3>
-        <div className="">
         {Array.from({ length: 4 }).map((_, i) => (
     <div className="flex w-full items-stretch">
     <div className='rounded-lg cursor-pointer m-1 flex items-center text-center justify-between bg-transparent space-x-2 p-2 hover:bg-white/20 transition duration-200'>
@@ -52,7 +51,7 @@ export default function RightSidebar() {
     </div>
     </div>
         ))}
-        </div>
+
     </div>
     </div>
     </section>
