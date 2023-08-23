@@ -62,7 +62,7 @@ export default function LeftSidebar() {
               </div>
             </div>
             <div className="flex w-full items-stretch">
-                      <button className='rounded-full flex items-center text-center justify-between bg-transparent space-x-2 p-2 hover:bg-gray transition duration-200'>
+                      <div className='rounded-full cursor-pointer flex items-center text-center justify-between bg-transparent space-x-2 p-2 hover:bg-gray transition duration-200'>
                         <div className="flex items-center space-x-2">
                             <div className="rounded-full bg-gray border-solid border-white border-[1px] w-12 h-12"></div>
                                 <div className="text-left text-sm">
@@ -70,10 +70,10 @@ export default function LeftSidebar() {
                                     <div className="">@MrB</div>
                                 </div>
                         </div>
-                    <div className="">
-                        <BsThreeDots />
-                    </div>
-                      </button>
+                        <div className="">
+                            <BsThreeDots />
+                        </div>
+                      </div>
             </div>
           </section>
         </div>
