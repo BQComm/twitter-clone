@@ -1,6 +1,5 @@
 'use client'
 import React from 'react'
-import LeftSidebar from './LeftSidebar'
 import {BsChat, BsDot, BsHeart, BsEyeFill, BsThreeDots} from 'react-icons/bs'
 import {FaRetweet} from 'react-icons/fa'
 import {FiShare} from 'react-icons/fi'
