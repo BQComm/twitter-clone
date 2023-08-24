@@ -19,7 +19,7 @@ export default function MainComponent() {
             <div className="outline-none">
               <input type="text" 
               className='w-full h-full bg-transparent border-gray p-4 outline-none placeholder:text-xl' 
-              placeholder="what&apos;s happening?" />
+              placeholder="front-end only. Database still in development!" />
             </div>
             <div className="w-full justify-between items-center flex">
               {/* <div className=""></div> */}
